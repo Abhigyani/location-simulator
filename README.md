@@ -36,7 +36,7 @@ the container in docker.
 This application is developed using Flask framework in Python. A docker image of current version of this application is
 also available. Apart from running the docker container, this application can be setup locally to execute.
 
-NOTE: Add your personal google direction API's key for the API_KEY in [constants.py](constants.py) for the API call to succeed. If API_KEY is left empty, the GET request will fail.
+**NOTE:** Add your personal google direction API's key for the API_KEY in [constants.py](constants.py) for the API call to succeed. If API_KEY is left empty, the GET request will fail.
 
 ### Docker image
 #### Steps:

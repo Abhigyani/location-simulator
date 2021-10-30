@@ -1,0 +1,6 @@
+Flask
+requests
+flask-wtf
+haversine
+flask-cors
+flask-bootstrap

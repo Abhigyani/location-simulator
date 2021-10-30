@@ -20,7 +20,7 @@ the distance in between the adjacent co-ordinates.
 ## File Structure
 1. **[app.py](app.py)**: Entry point of the application. The application is bootstrapped in this file and all the business logic
 related to data retrieval from the API is present here.
-2. **[polylihne_decoder.py](polyline_decoder.py)**: Contains logic to decode the polyline point encoded string.
+2. **[polyline_decoder.py](polyline_decoder.py)**: Contains logic to decode the polyline point encoded string.
 3. **[forms.py](forms.py)**: Contains class for Input form to accept source and destination co-ordinates as displayed in the UI.
 4. **[constants.py](constants.py)**: Maintains the constants used in the application.
 5. **[templates](templates)**: Contains HTML files which present the interface for user interactions like data input and displaying

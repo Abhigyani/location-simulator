@@ -18,18 +18,18 @@ the distance in between the adjacent co-ordinates.
 
 
 ## File Structure
-1. **app.py**: Entry point of the application. The application is bootstrapped in this file and all the business logic
+1. **[app.py](app.py)**: Entry point of the application. The application is bootstrapped in this file and all the business logic
 related to data retrieval from the API is present here.
-2. **polyline_decoder.py**: Contains logic to decode the polyline point encoded string.
-3. **forms.py**: Contains class for Input form to accept source and destination co-ordinates as displayed in the UI.
-4. **constants.py**: Maintains the constants used in the application.
-5. **templates**: Contains HTML files which present the interface for user interactions like data input and displaying
+2. **[polyline_decoder.py](polyline_decoder.py)**: Contains logic to decode the polyline point encoded string.
+3. **[forms.py](forms.py)**: Contains class for Input form to accept source and destination co-ordinates as displayed in the UI.
+4. **[constants.py](constants.py)**: Maintains the constants used in the application.
+5. **[templates](templates)**: Contains HTML files which present the interface for user interactions like data input and displaying
 output to the user.
-6. **static**: Contains static files like CSS and JS(if present) in the application.
-7. **location-simulator.sh**: Shell script to pull the docker image of this application from the docker hub and spin up
+6. **[static](static)**: Contains static files like CSS and JS(if present) in the application.
+7. **[location-simulator.sh](location-simulator.sh)**: Shell script to pull the docker image of this application from the docker hub and spin up
 the container in docker.
-8. **requirements.txt**: Contains all the application's dependencies to be installed. 
-9. **Dockerfile**: Contains configuration to create docker image for this application.
+8. **[requirements.txt](requirements.txt)**: Contains all the application's dependencies to be installed. 
+9. **[Dockerfile](Dockerfile)**: Contains configuration to create docker image for this application.
 
 
 ## Run this application
@@ -37,11 +37,11 @@ This application is developed using Flask framework in Python. A docker image of
 also available. Apart from running the docker container, this application can be setup locally to execute.
 
 ### Docker image
-####Steps:
+#### Steps:
 **Prerequisite**: System should have docker installed and docker daemon should be active and running. Please check `sudo`
 is not required while executing any docker commands.
 
-Execute the **"location-simulator.sh"** file, present in the root directory.
+Execute the [location-simulator.sh](location-simulator.sh) file, present in the root directory.
 
 NOTE: You might need to add execute permission to that script.
 1. `chmod +x location-simulator.sh`

@@ -37,11 +37,11 @@ This application is developed using Flask framework in Python. A docker image of
 also available. Apart from running the docker container, this application can be setup locally to execute.
 
 ### Docker image
-####Steps:
+#### Steps:
 **Prerequisite**: System should have docker installed and docker daemon should be active and running. Please check `sudo`
 is not required while executing any docker commands.
 
-Execute the **"location-simulator.sh"** file, present in the root directory.
+Execute the **"[location-simulator.sh](url)"** file, present in the root directory.
 
 NOTE: You might need to add execute permission to that script.
 1. `chmod +x location-simulator.sh`

@@ -1,2 +1,3 @@
-../flask/location-simulator/ENV
+ENV/
 __pycache__
+.idea/

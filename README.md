@@ -5,7 +5,7 @@ To get co-ordinates of latitude and longitude at a fixed interval of on the path
 LatLng co-ordinates.
 
 
-## Proposed Solution
+## Algorithm
 1. Get the route information using the Google directions API.
 2. Filter out the 'Steps' from the API's response.
 3. Each step has a entry for polyline point which is an encoded string formed by masking the sequential LatLang
